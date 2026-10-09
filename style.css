@@ -120,4 +120,18 @@ button:active
         font-size: 5px;
         margin-top: 25px;
     }
+    .card{
+         height: 50vh;
+         width: 60vw;
+    }
+}
+
+media (max-width:1080px) {
+    select{
+        height: 30%;
+    }
+    .question.question:h1{
+        font-size: 7px;
+        margin-top: 30px;
+    }
 }
