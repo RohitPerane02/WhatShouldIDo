@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #251523;
+}
+
+.main
+{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.card
+{
+    height: 40vh;
+    width: 30vw;
+    position: absolute;
+    background-color: #F5E9E2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 17px;
+    border-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.question
+{
+    height: 70%;
+    padding: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #251523;
+}
+
+.buttons
+{
+    height: 30%;
+}
+
+.h2
+{
+    height: 20%;
+    padding: 10%;
+    font-size: 23px;
+}
+
+select
+{
+    width: 70%;
+    height: 80%;
+    margin: 10%;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 80%;
+    font-weight: 500;
+    color: #251523;
+    background-color: #EAD9D4;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button
+{
+    padding: 3% 15%;
+    background-color: #B87986;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+button:hover
+{
+    font-size: 23px;
+    opacity: 0.93;
+}
+
+button:active
+{
+    opacity: 0.7;
+}
+
+.finaltext
+{
+    font-size: 24px;
+}
+@media (max-width:1270px) {
+    h2{
+        font-size: 15px;
+    }
+    select{
+        height: 40%;
+    }
+    .finaltext
+    {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:670px) {
+    select{
+        height: 20%;
+    }
+    .question.question:h1{
+        font-size: 5px;
+        margin-top: 25px;
+    }
+}
