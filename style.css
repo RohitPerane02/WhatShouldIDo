@@ -134,4 +134,8 @@ media (max-width:1080px) {
         font-size: 7px;
         margin-top: 30px;
     }
+     .card{
+         height: 50vh;
+         width: 60vw;
+    }
 }
